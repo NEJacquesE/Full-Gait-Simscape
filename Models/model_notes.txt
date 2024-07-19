@@ -1,0 +1,1 @@
+model_k1 = knee only model

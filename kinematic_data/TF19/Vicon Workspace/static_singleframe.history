@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Trial name="static_singleframe" notes="">
+
+  <Parameters>
+    <Param header="0" name="c3d" value="static_singleframe.c3d"/>
+    <Param header="0" name="Path" value="C:\Users\andyg\Box\BE shared drive\MoCap\VICON_DB\Physical Therapy\Robotics\TF19\20190724_tf19"/>
+  </Parameters>
+
+  <Run name="" notes="">
+    <Parameters>
+      <Param header="0" name="Version" value="2.9.1.117599h"/>
+    </Parameters>
+    <OperationType name="Data Processing" notes="">
+      <OperationSubType name="Process OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Oct-16 18:00:55"/>
+          <Param header="0" name="First Frame" value="113"/>
+          <Param header="0" name="Last Frame" value="113"/>
+          <Param header="0" name="Name" value="Pelvis"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Oct-16 18:00:55"/>
+          <Param header="0" name="First Frame" value="113"/>
+          <Param header="0" name="Last Frame" value="113"/>
+          <Param header="0" name="Name" value="RightThigh"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Oct-16 18:00:55"/>
+          <Param header="0" name="First Frame" value="113"/>
+          <Param header="0" name="Last Frame" value="113"/>
+          <Param header="0" name="Name" value="LeftThigh"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Oct-16 18:00:55"/>
+          <Param header="0" name="First Frame" value="113"/>
+          <Param header="0" name="Last Frame" value="113"/>
+          <Param header="0" name="Name" value="RightTibia"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Oct-16 18:00:55"/>
+          <Param header="0" name="First Frame" value="113"/>
+          <Param header="0" name="Last Frame" value="113"/>
+          <Param header="0" name="Name" value="LeftTibia"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process SCoRE / SARA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Oct-16 18:00:55"/>
+          <Param header="0" name="First Frame" value="113"/>
+          <Param header="0" name="Last Frame" value="113"/>
+          <Param header="0" name="Parent Name" value="Pelvis"/>
+          <Param header="0" name="Child Name" value="RightThigh"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process SCoRE / SARA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Oct-16 18:00:55"/>
+          <Param header="0" name="First Frame" value="113"/>
+          <Param header="0" name="Last Frame" value="113"/>
+          <Param header="0" name="Parent Name" value="Pelvis"/>
+          <Param header="0" name="Child Name" value="LeftThigh"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process SCoRE / SARA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Oct-16 18:00:55"/>
+          <Param header="0" name="First Frame" value="113"/>
+          <Param header="0" name="Last Frame" value="113"/>
+          <Param header="0" name="Parent Name" value="RightThigh"/>
+          <Param header="0" name="Child Name" value="RightTibia"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process SCoRE / SARA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Oct-16 18:00:55"/>
+          <Param header="0" name="First Frame" value="113"/>
+          <Param header="0" name="Last Frame" value="113"/>
+          <Param header="0" name="Parent Name" value="LeftThigh"/>
+          <Param header="0" name="Child Name" value="LeftTibia"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+  </Run>
+
+</Trial>

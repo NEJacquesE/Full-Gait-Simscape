@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Trial name="1p0_02" notes="">
+
+  <Parameters>
+    <Param header="0" name="Capture Date" value="2019-Jul-24 10:23:09"/>
+    <Param header="0" name="x2d" value="1p0_02.x2d"/>
+    <Param header="0" name="x1d" value="1p0_02.x1d"/>
+  </Parameters>
+
+  <Run name="" notes="">
+    <Parameters>
+      <Param header="0" name="Version" value="2.8.1.111866h"/>
+      <Param header="0" name="Start Date" value="2019-Sep-27 14:39:52"/>
+    </Parameters>
+    <OperationType name="Core Processing" notes="">
+      <OperationSubType name="Combined Processing" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:39:52"/>
+          <Param header="1" name="Frame Range" value=""/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="1" name="General" value=""/>
+          <Param header="0" name="Processing Output level" value="Labels"/>
+          <Param header="1" name="Grayscale Circle Fitting" value=""/>
+          <Param header="0" name="Enable" value="Yes"/>
+          <Param header="0" name="Circularity Threshold Tweak" value="0"/>
+          <Param header="1" name="Reconstruction" value=""/>
+          <Param header="0" name="3D Predictions" value="No"/>
+          <Param header="0" name="Environmental Drift Tolerance" value="1.5"/>
+          <Param header="0" name="Minimum Cameras to Start Trajectory" value="3"/>
+          <Param header="0" name="Minimum Cameras to Continue Trajectory" value="2"/>
+          <Param header="0" name="Reconstruction Minimum Separation" value="14"/>
+          <Param header="0" name="Minimum Centroid Radius" value="0"/>
+          <Param header="0" name="Maximum Centroid Radius" value="50"/>
+          <Param header="0" name="Minimum Reconstruction Radius" value="0"/>
+          <Param header="0" name="Maximum Reconstruction Radius" value="1000"/>
+          <Param header="0" name="Volume min X" value="-100000"/>
+          <Param header="0" name="Volume min Y" value="-100000"/>
+          <Param header="0" name="Volume min Z" value="-100000"/>
+          <Param header="0" name="Volume max X" value="100000"/>
+          <Param header="0" name="Volume max Y" value="100000"/>
+          <Param header="0" name="Volume max Z" value="100000"/>
+          <Param header="1" name="Trajectory Tracking" value=""/>
+          <Param header="0" name="Trajectory Startup Error" value="150"/>
+          <Param header="0" name="Trajectory Prediction Error" value="150"/>
+          <Param header="0" name="Max Trajectory Length to Delete" value="0"/>
+          <Param header="1" name="Labeling" value=""/>
+          <Param header="0" name="Label completeness entrance threshold" value="0.84999999999999998"/>
+          <Param header="0" name="Booting quality" value="0"/>
+          <Param header="0" name="Booting versus tracking" value="0.5"/>
+          <Param header="0" name="Tracking quality" value="0"/>
+          <Param header="0" name="Smoothing factor" value="1"/>
+          <Param header="0" name="Single pass" value="No"/>
+          <Param header="1" name="Kinematic Fitting" value=""/>
+          <Param header="0" name="Prior importance" value="25"/>
+          <Param header="0" name="Mean-pose ratio" value="1"/>
+          <Param header="1" name="Log Output" value=""/>
+          <Param header="0" name="Succeeded: 0 Errors and 0 Warnings" value=""/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Fill Gaps &amp; Filter Data" notes="">
+      <OperationSubType name="Fill Gaps - Woltring" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:39:52"/>
+          <Param header="0" name="Max Gap Length" value="5"/>
+          <Param header="0" name="Max Gap Units" value="Frames"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Fill Gaps - Rigid Body" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:39:53"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+          <Param header="0" name="Max Gap Units" value="Frames"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Trajectories" value="LSHO,RSHO,C7,T10,STRN,RBAK,CLAV"/>
+          <Param header="1" name="Log Output" value=""/>
+          <Param header="0" name="Filled 2 out of 3 gaps" value=""/>
+          <Param header="0" name="Succeeded: 0 Errors and 0 Warnings" value=""/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Fill Gaps - Rigid Body" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:39:53"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+          <Param header="0" name="Max Gap Units" value="Frames"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Trajectories" value="LASI,RASI,LPSI,RPSI,LILC,RILC"/>
+          <Param header="1" name="Log Output" value=""/>
+          <Param header="0" name="Filled 15 out of 15 gaps" value=""/>
+          <Param header="0" name="Succeeded: 0 Errors and 0 Warnings" value=""/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Fill Gaps - Rigid Body" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:39:53"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+          <Param header="0" name="Max Gap Units" value="Frames"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Trajectories" value="LTHI,LTHIA,LTHII,LTHIP,LKNE,LGTR"/>
+          <Param header="1" name="Log Output" value=""/>
+          <Param header="0" name="Filled 2 out of 2 gaps" value=""/>
+          <Param header="0" name="Succeeded: 0 Errors and 0 Warnings" value=""/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Fill Gaps - Rigid Body" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:39:53"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+          <Param header="0" name="Max Gap Units" value="Frames"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Trajectories" value="LANK,LHEE,LTOE,L5FT"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Fill Gaps - Rigid Body" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:39:53"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+          <Param header="0" name="Max Gap Units" value="Frames"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Trajectories" value="LTIB,LTIBA,LTIBI,LTIBP,LANK"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Fill Gaps - Rigid Body" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:39:53"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+          <Param header="0" name="Max Gap Units" value="Frames"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Trajectories" value="RANK,RHEE,RTOE,R5FT"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Fill Gaps - Rigid Body" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:39:54"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+          <Param header="0" name="Max Gap Units" value="Frames"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Trajectories" value="RTIB,RTIBA,RTIBI,RTIBP"/>
+          <Param header="1" name="Log Output" value=""/>
+          <Param header="0" name="Filled 0 out of 2 gaps" value=""/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Fill Gaps - Rigid Body" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:39:54"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+          <Param header="0" name="Max Gap Units" value="Frames"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Trajectories" value="RWRA,RWRB,RELB,RFRM"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Fill Gaps - Rigid Body" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:39:54"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+          <Param header="0" name="Max Gap Units" value="Frames"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Trajectories" value="RTHI,RTHIA,RTHII,RTHIP,RGTR"/>
+          <Param header="1" name="Log Output" value=""/>
+          <Param header="0" name="Filled 1 out of 4 gaps" value=""/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Fill Gaps - Rigid Body" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:39:54"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+          <Param header="0" name="Max Gap Units" value="Frames"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Trajectories" value="RWRA,RWRB,RFIN,R5HD"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Fill Gaps - Rigid Body" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:39:54"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+          <Param header="0" name="Max Gap Units" value="Frames"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Trajectories" value="LWRA,LWRB,LELB,LFRM"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Fill Gaps - Rigid Body" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:39:54"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+          <Param header="0" name="Max Gap Units" value="Frames"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Trajectories" value="LWRA,LWRB,LFIN,L5HD"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Events &amp; Timebar" notes="">
+      <OperationSubType name="Detect Events From Forceplate" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:39:55"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Force Threshold" value="-10"/>
+          <Param header="1" name="Gait Markers" value=""/>
+          <Param header="0" name="Left Anterior Marker" value="LTOE"/>
+          <Param header="0" name="Left Posterior Marker" value="LHEE"/>
+          <Param header="0" name="Right Anterior Marker" value="RTOE"/>
+          <Param header="0" name="Right Posterior Marker" value="RHEE"/>
+          <Param header="1" name="Log Output" value=""/>
+          <Param header="0" name="Detecting events for 'TF19'" value=""/>
+          <Param header="0" name="Succeeded: 0 Errors and 0 Warnings" value=""/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Manual Edits" notes="">
+      <OperationSubType name="Rigid Body Filled Trajectory( All ):  STRN" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:56:52"/>
+          <Param header="0" name="Trajectory" value="STRN"/>
+          <Param header="0" name="Donor Trajectory 1" value="CLAV"/>
+          <Param header="0" name="Donor Trajectory 2" value="T10"/>
+          <Param header="0" name="Donor Trajectory 3" value="C7"/>
+          <Param header="0" name="Gaps Filled" value="Filled 1 out of 1 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Rigid Body Filled Trajectory( All ):  RFRM" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:57:50"/>
+          <Param header="0" name="Trajectory" value="RFRM"/>
+          <Param header="0" name="Donor Trajectory 1" value="RELB"/>
+          <Param header="0" name="Donor Trajectory 2" value="RWRA"/>
+          <Param header="0" name="Donor Trajectory 3" value="RFIN"/>
+          <Param header="0" name="Gaps Filled" value="Filled 1 out of 1 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  RWRB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:58:37"/>
+          <Param header="0" name="Trajectory" value="RWRB"/>
+          <Param header="0" name="Donor Trajectory" value="RWRA"/>
+          <Param header="0" name="Gaps Filled" value="Filled 1 out of 1 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  R5HD" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:58:47"/>
+          <Param header="0" name="Trajectory" value="R5HD"/>
+          <Param header="0" name="Donor Trajectory" value="RFIN"/>
+          <Param header="0" name="Gaps Filled" value="Filled 2 out of 2 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Spline Interpolation Filled Trajectory:  R5HD" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:59:00"/>
+          <Param header="0" name="Trajectory" value="R5HD"/>
+          <Param header="0" name="Frame" value="2422"/>
+          <Param header="0" name="Gap Start Frame" value="2421"/>
+          <Param header="0" name="Gap End Frame" value="2475"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Rigid Body Filled Trajectory:  LILC" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:59:24"/>
+          <Param header="0" name="Trajectory" value="LILC"/>
+          <Param header="0" name="Donor Trajectory 1" value="LASI"/>
+          <Param header="0" name="Donor Trajectory 2" value="LPSI"/>
+          <Param header="0" name="Donor Trajectory 3" value="RPSI"/>
+          <Param header="0" name="Frame" value="2758"/>
+          <Param header="0" name="Gap Start Frame" value="2758"/>
+          <Param header="0" name="Gap End Frame" value="2800"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Rigid Body Filled Trajectory:  LILC" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:59:38"/>
+          <Param header="0" name="Trajectory" value="LILC"/>
+          <Param header="0" name="Donor Trajectory 1" value="LASI"/>
+          <Param header="0" name="Donor Trajectory 2" value="LPSI"/>
+          <Param header="0" name="Donor Trajectory 3" value="RPSI"/>
+          <Param header="0" name="Frame" value="1770"/>
+          <Param header="0" name="Gap Start Frame" value="1769"/>
+          <Param header="0" name="Gap End Frame" value="1822"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Data Processing" notes="">
+      <OperationSubType name="Process OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:15:30"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Name" value="Pelvis"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:15:30"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Name" value="RightThigh"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:15:30"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Name" value="LeftThigh"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:15:30"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Name" value="RightTibia"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:15:30"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Name" value="LeftTibia"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process SCoRE / SARA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:15:31"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Parent Name" value="Pelvis"/>
+          <Param header="0" name="Child Name" value="RightThigh"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process SCoRE / SARA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:15:31"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Parent Name" value="Pelvis"/>
+          <Param header="0" name="Child Name" value="LeftThigh"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process SCoRE / SARA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:15:31"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Parent Name" value="RightThigh"/>
+          <Param header="0" name="Child Name" value="RightTibia"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process SCoRE / SARA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:15:31"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Parent Name" value="LeftThigh"/>
+          <Param header="0" name="Child Name" value="LeftTibia"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Events &amp; Timebar" notes="">
+      <OperationSubType name="Detect Events From Forceplate" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:19:13"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Force Threshold" value="20"/>
+          <Param header="1" name="Gait Markers" value=""/>
+          <Param header="0" name="Left Anterior Marker" value="LTOE"/>
+          <Param header="0" name="Left Posterior Marker" value="LANK"/>
+          <Param header="0" name="Right Anterior Marker" value="RTOE"/>
+          <Param header="0" name="Right Posterior Marker" value="RANK"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Autocorrelate Events" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:19:14"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Only after existing" value="No"/>
+          <Param header="1" name="Left" value=""/>
+          <Param header="0" name="Marker" value="LANK"/>
+          <Param header="0" name="Component" value="Z"/>
+          <Param header="0" name="Derivative" value="Position"/>
+          <Param header="1" name="Right" value=""/>
+          <Param header="0" name="Marker" value="RANK"/>
+          <Param header="0" name="Component" value="Z"/>
+          <Param header="0" name="Derivative" value="Position"/>
+          <Param header="1" name="Log Output" value=""/>
+          <Param header="0" name="Autocorrelating events for 'TF19'" value=""/>
+          <Param header="0" name="Succeeded: 0 Errors and 0 Warnings" value=""/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Manual Edits" notes="">
+      <OperationSubType name="Move Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:30:44"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Move Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:30:46"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Move Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:30:48"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Move Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:30:50"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Move Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:30:52"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Move Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:30:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Move Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:30:57"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Move Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:30:59"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Delete Events" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:31:03"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Move Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:31:06"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Delete Events" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 15:31:07"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Fill Gaps &amp; Filter Data" notes="">
+      <OperationSubType name="Delete Unlabeled Trajectories" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Nov-01 11:25:41"/>
+          <Param header="0" name="Delete using Max Length" value="No"/>
+          <Param header="0" name="Max Length to Delete" value="25"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="1" name="Log Output" value=""/>
+          <Param header="0" name="Fully deleted: 55" value=""/>
+          <Param header="0" name="Partially deleted: 0" value=""/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Manual Edits" notes="">
+      <OperationSubType name="Move Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Nov-01 13:53:29"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Move Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Nov-01 13:53:48"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Data Processing" notes="">
+      <OperationSubType name="Process OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Nov-01 13:56:24"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Name" value="Pelvis"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Nov-01 13:56:25"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Name" value="RightThigh"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Nov-01 13:56:25"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Name" value="LeftThigh"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Nov-01 13:56:25"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Name" value="RightTibia"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Nov-01 13:56:25"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Name" value="LeftTibia"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process SCoRE / SARA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Nov-01 13:56:25"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Parent Name" value="Pelvis"/>
+          <Param header="0" name="Child Name" value="RightThigh"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process SCoRE / SARA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Nov-01 13:56:26"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Parent Name" value="Pelvis"/>
+          <Param header="0" name="Child Name" value="LeftThigh"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process SCoRE / SARA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Nov-01 13:56:26"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Parent Name" value="RightThigh"/>
+          <Param header="0" name="Child Name" value="RightTibia"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Process SCoRE / SARA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Nov-01 13:56:26"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3230"/>
+          <Param header="0" name="Parent Name" value="LeftThigh"/>
+          <Param header="0" name="Child Name" value="LeftTibia"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+  </Run>
+
+</Trial>

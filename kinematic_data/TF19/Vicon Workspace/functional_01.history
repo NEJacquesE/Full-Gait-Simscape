@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Trial name="functional_01" notes="">
+
+  <Parameters>
+    <Param header="0" name="Capture Date" value="2019-Jul-24 10:01:10"/>
+    <Param header="0" name="x2d" value="functional_01.x2d"/>
+    <Param header="0" name="x1d" value="functional_01.x1d"/>
+  </Parameters>
+
+  <Run name="" notes="">
+    <Parameters>
+      <Param header="0" name="Version" value="2.8.1.111866h"/>
+      <Param header="0" name="Start Date" value="2019-Jul-24 10:39:08"/>
+    </Parameters>
+    <OperationType name="Core Processing" notes="">
+      <OperationSubType name="Combined Processing" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Jul-24 10:39:08"/>
+          <Param header="1" name="Frame Range" value=""/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="1563"/>
+          <Param header="1" name="General" value=""/>
+          <Param header="0" name="Processing Output level" value="Labels"/>
+          <Param header="1" name="Grayscale Circle Fitting" value=""/>
+          <Param header="0" name="Enable" value="Yes"/>
+          <Param header="0" name="Circularity Threshold Tweak" value="0"/>
+          <Param header="1" name="Reconstruction" value=""/>
+          <Param header="0" name="3D Predictions" value="No"/>
+          <Param header="0" name="Environmental Drift Tolerance" value="1.5"/>
+          <Param header="0" name="Minimum Cameras to Start Trajectory" value="3"/>
+          <Param header="0" name="Minimum Cameras to Continue Trajectory" value="2"/>
+          <Param header="0" name="Reconstruction Minimum Separation" value="14"/>
+          <Param header="0" name="Minimum Centroid Radius" value="0"/>
+          <Param header="0" name="Maximum Centroid Radius" value="50"/>
+          <Param header="0" name="Minimum Reconstruction Radius" value="0"/>
+          <Param header="0" name="Maximum Reconstruction Radius" value="1000"/>
+          <Param header="0" name="Volume min X" value="-100000"/>
+          <Param header="0" name="Volume min Y" value="-100000"/>
+          <Param header="0" name="Volume min Z" value="-100000"/>
+          <Param header="0" name="Volume max X" value="100000"/>
+          <Param header="0" name="Volume max Y" value="100000"/>
+          <Param header="0" name="Volume max Z" value="100000"/>
+          <Param header="1" name="Trajectory Tracking" value=""/>
+          <Param header="0" name="Trajectory Startup Error" value="150"/>
+          <Param header="0" name="Trajectory Prediction Error" value="150"/>
+          <Param header="0" name="Max Trajectory Length to Delete" value="0"/>
+          <Param header="1" name="Labeling" value=""/>
+          <Param header="0" name="Label completeness entrance threshold" value="0.84999999999999998"/>
+          <Param header="0" name="Booting quality" value="0"/>
+          <Param header="0" name="Booting versus tracking" value="0.5"/>
+          <Param header="0" name="Tracking quality" value="0"/>
+          <Param header="0" name="Smoothing factor" value="1"/>
+          <Param header="0" name="Single pass" value="No"/>
+          <Param header="1" name="Kinematic Fitting" value=""/>
+          <Param header="0" name="Prior importance" value="25"/>
+          <Param header="0" name="Mean-pose ratio" value="1"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Subject Calibration" notes="">
+      <OperationSubType name="Functional Skeleton Calibration" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Jul-24 10:42:41"/>
+          <Param header="0" name="Calibration Skeleton" value=""/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="1563"/>
+          <Param header="0" name="Static Frame" value="1"/>
+          <Param header="0" name="Quality Of Fit" value="Accurate"/>
+          <Param header="0" name="Number of Active Frames" value="320"/>
+          <Param header="0" name="Mean Pose Importance" value="1.0000000000000001e-05"/>
+          <Param header="0" name="Joint Position Importance" value="0.20000000000000001"/>
+          <Param header="0" name="Marker Position Importance" value="0.20000000000000001"/>
+          <Param header="0" name="Calibrate From Prior" value="Yes"/>
+          <Param header="0" name="Use Template Statistics" value="No"/>
+          <Param header="0" name="Remove Optional Markers" value="Yes"/>
+          <Param header="0" name="Remove Calibration Markers" value="Yes"/>
+          <Param header="0" name="Ignore Calibration Markers" value="Yes"/>
+          <Param header="0" name="Non-Constraint Markers" value=""/>
+          <Param header="0" name="Static Constraint Markers" value=""/>
+          <Param header="1" name="Log Output" value=""/>
+          <Param header="0" name="TF19: RMS Error = 4.45523 mm" value=""/>
+          <Param header="0" name="TF19: Worst Error = 21.361 mm for marker LANK in Frame 837" value=""/>
+          <Param header="0" name="TF19: Worst 20 frames:" value=""/>
+          <Param header="0" name=" Error = 19.354 mm for Marker TF19::LANK in Frame 843" value=""/>
+          <Param header="0" name=" Error = 19.4715 mm for Marker TF19::LANK in Frame 831" value=""/>
+          <Param header="0" name=" Error = 19.534 mm for Marker TF19::LANK in Frame 352" value=""/>
+          <Param header="0" name=" Error = 19.5357 mm for Marker TF19::LANK in Frame 351" value=""/>
+          <Param header="0" name=" Error = 19.5391 mm for Marker TF19::LANK in Frame 347" value=""/>
+          <Param header="0" name=" Error = 19.5784 mm for Marker TF19::LANK in Frame 348" value=""/>
+          <Param header="0" name=" Error = 19.5948 mm for Marker TF19::LANK in Frame 350" value=""/>
+          <Param header="0" name=" Error = 19.6463 mm for Marker TF19::LANK in Frame 346" value=""/>
+          <Param header="0" name=" Error = 19.8563 mm for Marker TF19::LANK in Frame 349" value=""/>
+          <Param header="0" name=" Error = 19.9082 mm for Marker TF19::LANK in Frame 842" value=""/>
+          <Param header="0" name=" Error = 20.1683 mm for Marker TF19::LANK in Frame 832" value=""/>
+          <Param header="0" name=" Error = 20.4446 mm for Marker TF19::LANK in Frame 841" value=""/>
+          <Param header="0" name=" Error = 20.4963 mm for Marker TF19::LANK in Frame 840" value=""/>
+          <Param header="0" name=" Error = 20.5073 mm for Marker TF19::LANK in Frame 833" value=""/>
+          <Param header="0" name=" Error = 20.6386 mm for Marker TF19::LANK in Frame 838" value=""/>
+          <Param header="0" name=" Error = 20.9394 mm for Marker TF19::LANK in Frame 834" value=""/>
+          <Param header="0" name=" Error = 21.0615 mm for Marker TF19::LANK in Frame 835" value=""/>
+          <Param header="0" name=" Error = 21.1581 mm for Marker TF19::LANK in Frame 836" value=""/>
+          <Param header="0" name=" Error = 21.2004 mm for Marker TF19::LANK in Frame 839" value=""/>
+          <Param header="0" name=" Error = 21.361 mm for Marker TF19::LANK in Frame 837" value=""/>
+          <Param header="0" name="TF19 Succeeded: 0 Error(s), 0 Warning(s)" value=""/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Functional Skeleton Calibration" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:23:02"/>
+          <Param header="0" name="Calibration Skeleton" value=""/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="1563"/>
+          <Param header="0" name="Static Frame" value="1"/>
+          <Param header="0" name="Quality Of Fit" value="Accurate"/>
+          <Param header="0" name="Number of Active Frames" value="320"/>
+          <Param header="0" name="Mean Pose Importance" value="1.0000000000000001e-05"/>
+          <Param header="0" name="Joint Position Importance" value="0.20000000000000001"/>
+          <Param header="0" name="Marker Position Importance" value="0.20000000000000001"/>
+          <Param header="0" name="Calibrate From Prior" value="Yes"/>
+          <Param header="0" name="Use Template Statistics" value="No"/>
+          <Param header="0" name="Remove Optional Markers" value="Yes"/>
+          <Param header="0" name="Remove Calibration Markers" value="Yes"/>
+          <Param header="0" name="Ignore Calibration Markers" value="Yes"/>
+          <Param header="0" name="Non-Constraint Markers" value=""/>
+          <Param header="0" name="Static Constraint Markers" value=""/>
+          <Param header="1" name="Log Output" value=""/>
+          <Param header="0" name="TF19: RMS Error = 4.45509 mm" value=""/>
+          <Param header="0" name="TF19: Worst Error = 21.3583 mm for marker LANK in Frame 837" value=""/>
+          <Param header="0" name="TF19: Worst 20 frames:" value=""/>
+          <Param header="0" name=" Error = 19.3541 mm for Marker TF19::LANK in Frame 843" value=""/>
+          <Param header="0" name=" Error = 19.4648 mm for Marker TF19::LANK in Frame 831" value=""/>
+          <Param header="0" name=" Error = 19.537 mm for Marker TF19::LANK in Frame 352" value=""/>
+          <Param header="0" name=" Error = 19.5382 mm for Marker TF19::LANK in Frame 351" value=""/>
+          <Param header="0" name=" Error = 19.5402 mm for Marker TF19::LANK in Frame 347" value=""/>
+          <Param header="0" name=" Error = 19.5797 mm for Marker TF19::LANK in Frame 348" value=""/>
+          <Param header="0" name=" Error = 19.5971 mm for Marker TF19::LANK in Frame 350" value=""/>
+          <Param header="0" name=" Error = 19.6459 mm for Marker TF19::LANK in Frame 346" value=""/>
+          <Param header="0" name=" Error = 19.858 mm for Marker TF19::LANK in Frame 349" value=""/>
+          <Param header="0" name=" Error = 19.9081 mm for Marker TF19::LANK in Frame 842" value=""/>
+          <Param header="0" name=" Error = 20.1622 mm for Marker TF19::LANK in Frame 832" value=""/>
+          <Param header="0" name=" Error = 20.4438 mm for Marker TF19::LANK in Frame 841" value=""/>
+          <Param header="0" name=" Error = 20.4974 mm for Marker TF19::LANK in Frame 840" value=""/>
+          <Param header="0" name=" Error = 20.5045 mm for Marker TF19::LANK in Frame 833" value=""/>
+          <Param header="0" name=" Error = 20.6366 mm for Marker TF19::LANK in Frame 838" value=""/>
+          <Param header="0" name=" Error = 20.9346 mm for Marker TF19::LANK in Frame 834" value=""/>
+          <Param header="0" name=" Error = 21.0574 mm for Marker TF19::LANK in Frame 835" value=""/>
+          <Param header="0" name=" Error = 21.1546 mm for Marker TF19::LANK in Frame 836" value=""/>
+          <Param header="0" name=" Error = 21.1983 mm for Marker TF19::LANK in Frame 839" value=""/>
+          <Param header="0" name=" Error = 21.3583 mm for Marker TF19::LANK in Frame 837" value=""/>
+          <Param header="0" name="TF19 Succeeded: 0 Error(s), 0 Warning(s)" value=""/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+  </Run>
+
+</Trial>

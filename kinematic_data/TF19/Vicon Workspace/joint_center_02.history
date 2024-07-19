@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Trial name="joint_center_02" notes="">
+
+  <Parameters>
+    <Param header="0" name="Capture Date" value="2019-Jul-24 10:06:01"/>
+    <Param header="0" name="x2d" value="joint_center_02.x2d"/>
+    <Param header="0" name="x1d" value="joint_center_02.x1d"/>
+  </Parameters>
+
+  <Run name="" notes="">
+    <Parameters>
+      <Param header="0" name="Version" value="2.8.1.111866h"/>
+      <Param header="0" name="Start Date" value="2019-Sep-27 14:26:51"/>
+    </Parameters>
+    <OperationType name="Core Processing" notes="">
+      <OperationSubType name="Combined Processing" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:26:51"/>
+          <Param header="1" name="Frame Range" value=""/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="5328"/>
+          <Param header="1" name="General" value=""/>
+          <Param header="0" name="Processing Output level" value="Labels"/>
+          <Param header="1" name="Grayscale Circle Fitting" value=""/>
+          <Param header="0" name="Enable" value="Yes"/>
+          <Param header="0" name="Circularity Threshold Tweak" value="0"/>
+          <Param header="1" name="Reconstruction" value=""/>
+          <Param header="0" name="3D Predictions" value="No"/>
+          <Param header="0" name="Environmental Drift Tolerance" value="1.5"/>
+          <Param header="0" name="Minimum Cameras to Start Trajectory" value="3"/>
+          <Param header="0" name="Minimum Cameras to Continue Trajectory" value="2"/>
+          <Param header="0" name="Reconstruction Minimum Separation" value="14"/>
+          <Param header="0" name="Minimum Centroid Radius" value="0"/>
+          <Param header="0" name="Maximum Centroid Radius" value="50"/>
+          <Param header="0" name="Minimum Reconstruction Radius" value="0"/>
+          <Param header="0" name="Maximum Reconstruction Radius" value="1000"/>
+          <Param header="0" name="Volume min X" value="-100000"/>
+          <Param header="0" name="Volume min Y" value="-100000"/>
+          <Param header="0" name="Volume min Z" value="-100000"/>
+          <Param header="0" name="Volume max X" value="100000"/>
+          <Param header="0" name="Volume max Y" value="100000"/>
+          <Param header="0" name="Volume max Z" value="100000"/>
+          <Param header="1" name="Trajectory Tracking" value=""/>
+          <Param header="0" name="Trajectory Startup Error" value="150"/>
+          <Param header="0" name="Trajectory Prediction Error" value="150"/>
+          <Param header="0" name="Max Trajectory Length to Delete" value="0"/>
+          <Param header="1" name="Labeling" value=""/>
+          <Param header="0" name="Label completeness entrance threshold" value="0.84999999999999998"/>
+          <Param header="0" name="Booting quality" value="0"/>
+          <Param header="0" name="Booting versus tracking" value="0.5"/>
+          <Param header="0" name="Tracking quality" value="0"/>
+          <Param header="0" name="Smoothing factor" value="1"/>
+          <Param header="0" name="Single pass" value="No"/>
+          <Param header="1" name="Kinematic Fitting" value=""/>
+          <Param header="0" name="Prior importance" value="25"/>
+          <Param header="0" name="Mean-pose ratio" value="1"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Subject Calibration" notes="">
+      <OperationSubType name="Calibrate OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:27:45"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="5328"/>
+          <Param header="0" name="Markers" value="LASI,RASI,LPSI,RPSI,LILC,RILC"/>
+          <Param header="0" name="Name" value="Pelvis"/>
+          <Param header="0" name="Align" value="No"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Calibrate OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:27:45"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="5328"/>
+          <Param header="0" name="Markers" value="LTHI,LTHIA,LTHII,LTHIP"/>
+          <Param header="0" name="Name" value="LeftThigh"/>
+          <Param header="0" name="Align" value="No"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Calibrate OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:27:46"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="5328"/>
+          <Param header="0" name="Markers" value="RTHI,RTHIA,RTHII,RTHIP"/>
+          <Param header="0" name="Name" value="RightThigh"/>
+          <Param header="0" name="Align" value="No"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Calibrate OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:27:46"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="5328"/>
+          <Param header="0" name="Markers" value="RTIB,RTIBA,RTIBI,RTIBP"/>
+          <Param header="0" name="Name" value="RightTibia"/>
+          <Param header="0" name="Align" value="No"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Calibrate OCST" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:27:46"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="5328"/>
+          <Param header="0" name="Markers" value="LTIB,LTIBA,LTIBI,LTIBP"/>
+          <Param header="0" name="Name" value="LeftTibia"/>
+          <Param header="0" name="Align" value="No"/>
+          <Param header="0" name="Output Optimal" value="No"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Calibrate SCoRE / SARA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:27:46"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="5328"/>
+          <Param header="0" name="Parent Name" value="Pelvis"/>
+          <Param header="0" name="Child Name" value="RightThigh"/>
+          <Param header="0" name="SARA" value="No"/>
+          <Param header="0" name="Axes" value="Primary"/>
+          <Param header="0" name="System" value="Combined"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Calibrate SCoRE / SARA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:27:46"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="5328"/>
+          <Param header="0" name="Parent Name" value="Pelvis"/>
+          <Param header="0" name="Child Name" value="LeftThigh"/>
+          <Param header="0" name="SARA" value="No"/>
+          <Param header="0" name="Axes" value="Primary"/>
+          <Param header="0" name="System" value="Combined"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Calibrate SCoRE / SARA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:27:46"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="5328"/>
+          <Param header="0" name="Parent Name" value="RightThigh"/>
+          <Param header="0" name="Child Name" value="RightTibia"/>
+          <Param header="0" name="SARA" value="Yes"/>
+          <Param header="0" name="Axes" value="Primary"/>
+          <Param header="0" name="System" value="Combined"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Calibrate SCoRE / SARA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2019-Sep-27 14:27:46"/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="5328"/>
+          <Param header="0" name="Parent Name" value="LeftThigh"/>
+          <Param header="0" name="Child Name" value="LeftTibia"/>
+          <Param header="0" name="SARA" value="Yes"/>
+          <Param header="0" name="Axes" value="Primary"/>
+          <Param header="0" name="System" value="Combined"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+  </Run>
+
+</Trial>

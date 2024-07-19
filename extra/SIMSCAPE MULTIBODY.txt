@@ -1,0 +1,20 @@
+ SIMSCAPE MULTIBODY
+
+Completion of gait cycle
+	Are the hips trans. coor. part of the gen. coor. needed for Inv. Kinematics?
+	If so how do I input them?
+		Using some initial position and providing vel. and acc. to find pose. profile
+	How do I input the grfs?
+		Seem to be doing forward kinematics not Inv. Kinematics
+		Should it be what's done? Considering all unkn. in the sys.
+	
+
+Amputee Kinematics Data
+
+51
+
+Ok could be useful still has to be done
+
+Kinematics analysis to see foot displacement
+
+Starting with the hip
